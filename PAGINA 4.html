@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torneo de Básquetbol 3x3 - San Luis Potosí</title>
+    <style>
+        /* Estilos mejorados para el torneo de básquetbol 3x3 */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #002244;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 42px;
+        }
+
+        header p {
+            font-size: 20px;
+            margin: 5px 0;
+        }
+
+        nav {
+            background-color: #003366;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+
+        section {
+            padding: 30px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        #info h2, #registro h2, #reglamento h2, #multimedia h2 {
+            color: #003366;
+            border-bottom: 3px solid #003366;
+            padding-bottom: 8px;
+        }
+
+        #info p, #registro p, #reglamento ul, #multimedia p {
+            font-size: 16px;
+            color: #cccccc;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            background-color: #333333;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #004488;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin-top: 15px;
+        }
+
+        .btn:hover {
+            background-color: #0066cc;
+        }
+
+        .media {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 15px;
+        }
+
+        footer {
+            background-color: #002244;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Torneo de Básquetbol 3x3</h1>
+        <p>San Luis Potosí - Octubre 2024</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#info">Detalles del Evento</a></li>
+            <li><a href="#registro">Inscripción</a></li>
+            <li><a href="#reglamento">Reglamento</a></li>
+            <li><a href="#multimedia">Multimedia</a></li>
+        </ul>
+    </nav>
+
+    <section id="info">
+        <h2>Detalles del Evento</h2>
+        <p>Únete al emocionante torneo de básquetbol 3x3 en San Luis Potosí. Este evento está abierto a equipos locales y nacionales.</p>
+        <p><strong>Fecha:</strong> 25 de Octubre, 2024</p>
+        <p><strong>Lugar:</strong> Polideportivo Universitario, San Luis Potosí</p>
+        <p><strong>Inscripción:</strong> $500 por equipo</p>
+    </section>
+
+    <section id="registro">
+        <h2>Inscripción</h2>
+        <p>Para inscribir a tu equipo, visita nuestra página de registro haciendo clic en el botón:</p>
+        <a href="https://registrotorneo3x3.com" class="btn">Inscríbete Aquí</a>
+    </section>
+
+    <section id="reglamento">
+        <h2>Reglamento del Torneo</h2>
+        <ul>
+            <li>Cada equipo debe tener 3 jugadores titulares y 1 suplente.</li>
+            <li>Se aplicarán las reglas oficiales de FIBA 3x3.</li>
+            <li>Duración de cada partido: 10 minutos o hasta que un equipo anote 21 puntos.</li>
+        </ul>
+    </section>
+
+    <section id="multimedia">
+        <h2>Multimedia</h2>
+        <div class="media">
+            <video controls width="300">
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de video.
+            </video>
+            <audio controls>
+                <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+                Tu navegador no soporta la reproducción de audio.
+            </audio>
+        </div>
+        <p>Explora el ambiente de este emocionante evento con los videos y audios destacados.</p>
+    </section>
+
+    <footer>
+        <p>Organizado por la Asociación de Básquetbol de San Luis Potosí</p>
+        <p>Contacto: <a href="mailto:info@basquet3x3slp.com">info@basquet3x3slp.com</a></p>
+    </footer>
+</body>
+</html>
