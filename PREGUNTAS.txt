@@ -1,0 +1,9 @@
+PREGUNTAS
+¿Qué nuevos conocimientos adquiriste?
+Aprendí a estructurar una página web con HTML y CSS de manera más organizada, especialmente al usar colores, estilos de texto, y componentes multimedia como video y audio. También me familiaricé con la creación de un diseño minimalista y responsivo, que hace que la página sea fácil de navegar en distintos dispositivos.
+
+¿Cuáles fueron los mayores desafíos que encontraste al combinar HTML + CSS?
+Uno de los desafíos principales fue lograr que el diseño se mantuviera consistente en diferentes resoluciones de pantalla. Además, ajustar los elementos multimedia en el diseño fue complicado, especialmente para asegurar que se alinearan bien con el resto del contenido sin desorganizar el flujo de la página.
+
+¿Cómo planeas aplicar lo aprendido sobre CSS en futuros proyectos o situaciones que involucren diseño web?
+Planeo aplicar las técnicas de diseño responsivo que aprendí para crear páginas que se adapten bien a cualquier dispositivo. También buscaré optimizar el uso de colores y estilos, manteniendo el código CSS organizado y utilizando efectos visuales para mejorar la experiencia del usuario en futuros proyectos de diseño web.
